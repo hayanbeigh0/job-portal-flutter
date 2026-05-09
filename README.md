@@ -123,7 +123,7 @@ Enter any phone number on the login screen and tap **Send OTP**. The OTP appears
 🔑 OTP for 9876543210: 483021
 ```
 
-In development you can also type `000000` as a universal bypass — it is accepted for any phone number without checking the generated OTP.
+> **Shortcut:** Use `000000` as the OTP for any phone number — it always works without needing to copy from the console.
 
 ### Profile setup
 
@@ -163,4 +163,6 @@ Make sure the backend is running and the `baseUrl` in `api_client.dart` matches 
 
 **OTP not working**
 
-The OTP expires after 10 minutes. Request a new one with the Resend button, or use `000000` in development.
+The OTP expires after 10 minutes. Request a new one with the Resend button.
+
+> **Tip:** `000000` is always accepted as a valid OTP regardless of what was generated — use this to skip the console lookup entirely.
