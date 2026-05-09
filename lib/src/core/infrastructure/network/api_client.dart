@@ -12,7 +12,7 @@ class ApiClient {
   ApiClient(this._tokenStore) {
     _dio = Dio(
       BaseOptions(
-        baseUrl: 'http://localhost:4000/api',
+        baseUrl: 'http://34.135.205.206:4000/api',
         connectTimeout: const Duration(seconds: 30),
         receiveTimeout: const Duration(seconds: 30),
         headers: {

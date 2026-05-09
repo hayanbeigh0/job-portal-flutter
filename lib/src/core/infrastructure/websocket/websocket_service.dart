@@ -50,7 +50,7 @@ class WebSocketService {
       }
 
       _socket = IO.io(
-        'http://localhost:4000',
+        'http://34.135.205.206:4000',
         IO.OptionBuilder()
             .setTransports(['websocket'])
             .enableAutoConnect()
