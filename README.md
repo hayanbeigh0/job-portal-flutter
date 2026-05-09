@@ -31,7 +31,7 @@ Open [lib/src/core/infrastructure/network/api_client.dart](lib/src/core/infrastr
 |---|---|
 | Android emulator, backend on same machine | `http://10.0.2.2:4000` |
 | iOS simulator, backend on same machine | `http://localhost:4000` |
-| Physical device, backend on same machine | `http://<your-machine-local-ip>:4000` |
+| Physical device, backend on same machine | `http://34.135.205.206:4000` |
 | Backend on a remote server | `http://<server-ip-or-domain>:4000` |
 
 ---
@@ -163,6 +163,4 @@ Make sure the backend is running and the `baseUrl` in `api_client.dart` matches 
 
 **OTP not working**
 
-The OTP expires after 10 minutes. Request a new one with the Resend button.
-
-> **Tip:** `000000` is always accepted as a valid OTP regardless of what was generated — use this to skip the console lookup entirely.
+The OTP expires after 10 minutes. Request a new one with the Resend button, or use `000000` in development.
