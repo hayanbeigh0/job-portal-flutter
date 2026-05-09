@@ -1,0 +1,74 @@
+name: job_portal_flutter
+description: "New Job Portal - A production-ready job matching application"
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+
+  # Functional Programming
+  dartz: ^0.10.1
+
+  # Code Generation
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.11.0
+
+  # Dependency Injection
+  get_it: ^9.2.1
+  injectable: ^3.0.0
+
+  # Network
+  dio: ^5.9.2
+  pretty_dio_logger: ^1.4.0
+
+  # WebSocket
+  socket_io_client: ^3.0.3
+
+  # Local Storage
+  shared_preferences: ^2.5.5
+  flutter_secure_storage: ^9.2.4
+
+  # Routing
+  auto_route: ^11.1.0
+
+  # UI
+  flutter_screenutil: ^5.9.3
+  google_fonts: ^8.1.0
+  shimmer: ^3.0.0
+  cached_network_image: ^3.4.1
+  flutter_svg: ^2.0.20
+
+  # Utils
+  intl: ^0.20.2
+  uuid: ^4.5.3
+  rxdart: ^0.28.0
+
+  # UI Feedback
+  another_flushbar: ^1.12.32
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.15.0
+  freezed: ^3.2.5
+  json_serializable: ^6.13.1
+  injectable_generator: ^3.0.2
+  auto_route_generator: ^10.5.0
+  flutter_launcher_icons: ^0.14.4
+  lint: ^2.8.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
